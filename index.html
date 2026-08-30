@@ -2824,8 +2824,10 @@ compute();
 (function(){
   "use strict";
   var ALLOWED = ['laosioannis@gmail.com','mgeorgiadis@rhodes.gr','vasilis1730@gmail.com'];
-  var SUPABASE_URL = 'https://hafaxrebjzootjzzqkzx.supabase.co';
-  var SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhhZmF4cmVianpvb3Rqenpxa3p4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE2MzcwNTYsImV4cCI6MjA5NzIxMzA1Nn0.cGRfiFWGnU5GSoI84D86p3XEhkw6RvIMqxwbKHT9xko';
+  /* Δικό του, αποκλειστικό project — δεν μοιράζεται λογαριασμούς με τις
+     Προμήθειες ή οποιαδήποτε άλλη εφαρμογή. */
+  var SUPABASE_URL = 'https://afpuvxwouwfanjlegnye.supabase.co';
+  var SUPABASE_KEY = 'sb_publishable_Qa0eWYI0_3Amig9GlNISnQ__oA8MgAz';
 
   if(!window.supabase || !window.supabase.createClient){ console.error('[ΣΠΥ] Supabase library not loaded'); return; }
   var client = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, {
